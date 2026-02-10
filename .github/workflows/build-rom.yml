@@ -3,10 +3,10 @@ run-name: Building ROM > ${{ inputs.device }}
 on:
   workflow_dispatch:
     inputs:
-      device: r9s
+      device:
         description: 'Choose objective'
         required: true
-        default: ''
+        default: 'r9s'
       upload_cloud:
         description: 'Upload ROM to cloud (PixelDrain)'
         required: false
