@@ -3,7 +3,7 @@ run-name: Building ROM > ${{ inputs.device }}
 on:
   workflow_dispatch:
     inputs:
-      device:
+      device: r9s
         description: 'Choose objective'
         required: true
         default: ''
